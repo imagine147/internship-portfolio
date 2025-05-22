@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Bebas+Neue&family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+header, h1, h2, h3, h4, h5, h6, nav {
+  font-family: 'Bebas Neue';
+}
+
+menu, ul, ol, li, .menu {
+  font-family: 'Inter', sans-serif;
+}
