@@ -63,7 +63,7 @@ export default function ContactForm() {
   return (
     <section className="">
         <div className="w-full text-[#C7C7C7]">
-        <form action="https://formspree.io/f/yourFormID" // replace with actual ID
+        <form action="https://formspree.io/f/xanozqpq" // replace with actual ID
           method="POST"
           className="space-y-6"
           onSubmit={handleSubmit}
