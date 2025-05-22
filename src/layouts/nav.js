@@ -50,26 +50,25 @@ export default function NavBar() {
   return (
     <nav className="bg-[#0A0A0A] sticky top-0 w-full z-60"> 
       <div className="container w-full md:w-11/12 mx-auto flex justify-between items-center p-4 text-[#C7C7C7] text-base">
-        <Link href="/"><div className="text-2xl">OLAJIDE AKINSOLA</div></Link>
+        <Link href="/" className="text-2xl hover:text-[#D3E97A] transition-colors duration-200">OLAJIDE AKINSOLA</Link>
         <button className="absolute right-4 top-4 md:hidden cursor-pointer" onClick={openMenubar}>
           {menuOpen ? ( <IoClose className="w-[32px] h-[32px]"/> ) : ( <HiMenuAlt4 className="w-[32px] h-[32px]" />)}
         </button>
 
-
         {/* mobile-menu */}
         <div ref={navRef} className={`absolute top-full right-2 w-[95%] mx-auto bg-white rounded-lg shadow-lg md:hidden flex flex-col gap-4 z-50 transition-all ${menuOpen ? 'block' : 'hidden'}`}>
           <div className="flex flex-col gap-6 p-6 text-[#0A0A0A]">
-            <Link href="/work"><h3>Work</h3></Link>
-            <Link href="/about"><h3>About</h3></Link>
-            <Link href="/contact"><h3>Contact</h3></Link>
+            <Link href="/work" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Work</h3></Link>
+            <Link href="/about" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>About</h3></Link>
+            <Link href="/#contact" passHref onClick={() => { handleSetActive('contact'); closeMenubar(); }} className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Contact</h3></Link>
           </div>
         </div>
 
         {/* desktop-menu */}
         <div className="hidden md:flex gap-6">
-          <Link href="/work"><h3>Work</h3></Link>
-          <Link href="/about"><h3>About</h3></Link>
-          <Link href="/contact"><h3>Contact</h3></Link>
+          <Link href="/work" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Work</h3></Link>
+          <Link href="/about" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>About</h3></Link>
+          <Link href="/#contact" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Contact</h3></Link>
         </div>
       </div>
     </nav>

@@ -4,6 +4,7 @@ import Github from "../images/bxl-github.svg.svg"
 import Twitter from "../images/bxl-linkedin.svg.svg"
 import Instagram from "../images/bxl-instagram.svg.svg"
 import ContactForm from "@/components/contact/form"
+import Link from "next/link"
 export default function Footer() {
   return (
     <footer>
@@ -12,15 +13,23 @@ export default function Footer() {
           <div className="flex flex-col gap-3">
             <h1 className="text-white text-3xl ">LET'S CONNECT</h1>
             <div>
-              <p>Say hello at <span className="border-b border-b-[#D3E97A]">akinsolaolajide150@gmail.com</span></p>
-              <p>For more info, here's my <span className="border-b border-b-[#D3E97A]">resume</span></p>
+                <p>Say hello at <Link href="https://mail.com/akinsolaolajide" target="_blank" rel="noopener noreferrer"><span className="border-b border-b-[#D3E97A] hover:text-[#D3E97A] cursor-pointer">akinsolaolajide150@gmail.com</span></Link></p>
+              <p>For more info, here's my <Link href="https://mail.com/akinsolaolajide" target="_blank" rel="noopener noreferrer"><span className="border-b border-b-[#D3E97A] hover:text-[#D3E97A] ">resume</span></Link></p>
             </div>
           </div>
           <div className="flex gap-4">
-            <Image className="w-7 h-7" src={Linkdin} alt="linkdin-icon"/>
-            <Image className="w-7 h-7" src={Github} alt="github-icon"/>
-            <Image className="w-7 h-7" src={Twitter} alt="twitter-icon"/>
-            <Image className="w-7 h-7" src={Instagram} alt="instagram-icon"/>
+            <Link href="https://instagram.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
+              <Image className="w-7 h-7" src={Instagram} alt="instagram-icon"/>
+            </Link>
+            <Link href="https://github.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
+              <Image className="w-7 h-7" src={Github} alt="github-icon"/>
+            </Link>
+            <Link href="https://twitter.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
+              <Image className="w-7 h-7" src={Twitter} alt="twitter-icon"/>
+            </Link>
+            <Link href="https://twitter.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
+              <Image className="w-7 h-7 cursor-pointer" src={Instagram} alt="instagram-icon"/>
+            </Link>
           </div>
 
           <div className="hidden md:flex text-sm absolute bottom-0">© 2023 Olajide Akinsola</div>

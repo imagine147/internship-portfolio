@@ -6,7 +6,7 @@ import Arrow from "../../images/arrow.svg"
 import Link from "next/link"
 export default function Hero() {
   return (
-    <div >
+    <div>
       <div className="container w-full md:w-10/12 mx-auto flex flex-col md:flex-row justify-between gap-8 items-center p-4 text-white text-base pt-8 pb-16">
         <div className="w-full md:w-1/2 flex flex-col gap-6">
           <div className="flex flex-col gap-2">
@@ -15,12 +15,15 @@ export default function Hero() {
           </div>
 
           <div className="flex gap-4 items-center">
-            <Link href="/contact" className="bg-[#D3E97A] rounded-3xl text-[#0A0A0A] px-4 py-2 text-sm flex gap-2 items-center">
-            CONTACT ME <span className="rounded-full bg-[#0A0A0A] md:p-1"><Image className="block md:hidden" src={Arrow} alt="arrow-up"/></span>
+            <Link href="#contact" className="bg-[#D3E97A] rounded-3xl text-[#0A0A0A] px-4 py-2 text-sm flex gap-2 items-center hover:brightness-115">
+              CONTACT ME <span className="rounded-full bg-[#0A0A0A] md:p-1"><Image className="block md:hidden" src={Arrow} alt="arrow-up"/></span>
             </Link>
-            
-            <Image className="w-10 h-10" src={Linkdin} alt="linkdin-icon"/>
-            <Image className="w-10 h-10" src={Github} alt="github-icon"/>
+            <Link href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <Image className="w-10 h-10 hover:brightness-115" src={Linkdin} alt="linkedin-icon"/>
+            </Link>
+            <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
+              <Image className="w-10 h-10 hover:brightness-115" src={Github} alt="github-icon"/>
+            </Link>
           </div>
         </div>
         <Image src={Pic} alt="profile-pic" className="rounded-lg w-full md:w-1/2"/>

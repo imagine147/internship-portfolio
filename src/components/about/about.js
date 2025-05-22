@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Pic from "../../images/image 25.png"
+import Link from "next/link"
 export default function About() {
   return (
     <div>
@@ -10,7 +11,9 @@ export default function About() {
           <p className="text-[#C7C7C7] text-sm">I am a front-end developer based in Lagos looking for exciting opportunities. Has Social Science background. Likes to focus on accessibility when developing. <span className="hidden md:flex">Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to improve skill.</span></p>
 
           <div>
-            <button className="text-[#D3E97A] border-b border-b-[#D3E97A] mt-1">MORE ABOUT ME</button>
+            <Link href="/about" className="hover:brightness-115">
+              <button className="text-[#D3E97A] border-b border-b-[#D3E97A] mt-1 cursor-pointer">MORE ABOUT ME</button>
+            </Link>
           </div>
         </div>
 

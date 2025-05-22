@@ -2,6 +2,7 @@ import Image from "next/image"
 import Github from "../../images/bxl-github.svg.svg"
 import Arrow from "../../images/arrow.svg"
 import { cards } from "@/db"
+import Link from "next/link"
 export default function Cards() {
   return (
       <div>
@@ -26,9 +27,13 @@ export default function Cards() {
                 <div className="border-b-1 border-b-[#484848]"></div>
               </div>
 
-              <div className="flex gap-4 text-sm">
-                <button className="text-[#D3E97A] border-b-2 border-b-[#D3E97A] flex items-center py-1 gap-2">LIVE DEMO<span><Image src={Arrow} alt="arrow-up"/></span></button>
-                <button className="text-[#D3E97A] border-b-2 border-b-[#D3E97A] flex items-center py-1 gap-2">SEE ON GITHUB<span><Image src={Github} alt="github-icon"/></span></button>
+              <div className="flex items-center gap-4 text-sm">
+                <Link href="https://instagram.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-130">
+                  <button className="text-[#D3E97A] border-b-2 border-b-[#D3E97A] flex items-center py-1 gap-2 cursor-pointer">LIVE DEMO<span><Image className="w-7" src={Arrow} alt="arrow-up"/></span></button>
+                </Link>
+                <Link href="https://instagram.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-130">
+                  <button className="text-[#D3E97A] border-b-2 border-b-[#D3E97A] flex items-center py-1 gap-2 cursor-pointer">SEE ON GITHUB<span><Image className="w-7" src={Github} alt="github-icon"/></span></button>
+                </Link>
               </div>
             </div>
           </div>
