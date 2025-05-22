@@ -13,21 +13,21 @@ export default function Footer() {
           <div className="flex flex-col gap-3">
             <h1 className="text-white text-3xl ">LET'S CONNECT</h1>
             <div>
-                <p>Say hello at <Link href="https://mail.com/akinsolaolajide" target="_blank" rel="noopener noreferrer"><span className="border-b border-b-[#D3E97A] hover:text-[#D3E97A] cursor-pointer">akinsolaolajide150@gmail.com</span></Link></p>
+                <p>Say hello at <Link href="https://gmail.com/akinsolaolajide" target="_blank" rel="noopener noreferrer"><span className="border-b border-b-[#D3E97A] hover:text-[#D3E97A] cursor-pointer">akinsolaolajide150@gmail.com</span></Link></p>
               <p>For more info, here's my <Link href="https://mail.com/akinsolaolajide" target="_blank" rel="noopener noreferrer"><span className="border-b border-b-[#D3E97A] hover:text-[#D3E97A] ">resume</span></Link></p>
             </div>
           </div>
           <div className="flex gap-4">
-            <Link href="https://instagram.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
-              <Image className="w-7 h-7" src={Instagram} alt="instagram-icon"/>
+            <Link href="https://www.linkedin.com/in/oluwatomiwa-deji-415159107/" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
+              <Image className="w-7 h-7" src={Linkdin} alt="linkdin-icon"/>
             </Link>
-            <Link href="https://github.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
+            <Link href="https://github.com/imagine147" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
               <Image className="w-7 h-7" src={Github} alt="github-icon"/>
             </Link>
-            <Link href="https://twitter.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
+            <Link href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
               <Image className="w-7 h-7" src={Twitter} alt="twitter-icon"/>
             </Link>
-            <Link href="https://twitter.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
+            <Link href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="hover:brightness-150 hover:border hover:border-[#D3E97A] rounded-full hover:p-1">
               <Image className="w-7 h-7 cursor-pointer" src={Instagram} alt="instagram-icon"/>
             </Link>
           </div>

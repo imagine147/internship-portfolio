@@ -29,35 +29,38 @@ export const caps =[
   },
 ]
 
-import Img1 from "./images/work.svg"
-import Img2 from "./images/image 10.svg"
-import Img3 from "./images/image 9.svg"
+import Img1 from "./images/download (1).png"
+import Img2 from "./images/download (2).png"
+import Img3 from "./images/download.png"
 export const cards =[
   {
     id:1,
-    title: "Promotional landing page for our favorite show",
-    description: "Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.",
+    title: "Event-Cove",
+    description: "Browse a curated list of upcoming events across various categories, including music festivals, marathons, fundraisers, and more.",
     heading: "PROJECT INFO",
     year: 2023,
     image: Img1,
-    type: "Conceptual Work"
+    type: "Conceptual Work",
+    link: 'https://discover-events-git-main-olajides-projects-93bc3a9f.vercel.app/'
   },
   {
     id:2,
-    title: "Blog site for World News",
-    description: "Mastered CSS Grid complexities in building an innovative news homepage, navigating intricate design decisions for a seamless user experience. Leveraged the challenge to enhance skills in  front-end development.",
+    title: "Trad-Express",
+    description: "This crypto website is a sleek, modern investment platform designed to help users research, invest in, and track digital assets—all in one place",
     heading: "PROJECT INFO",
     year: 2022,
     image: Img2,
-    type: "practice"
+    type: "practice",
+    link: 'https://trad-form-olajides-projects-93bc3a9f.vercel.app/'
   },
   {
     id:3,
-    title: "E-commerce product page",
-    description: "Successfully crafted an engaging product page featuring a dynamic lightbox gallery and seamless cart functionality, showcasing proficiency in JavaScript development.",
+    title: "Portfolio",
+    description: "This is a minimal, responsive placeholder website created to showcase the outcome of converting a Figma-based design into a live web page. It serves as a clean and focused template for demonstrating: Figma to code work-flow showcasing the design and layout of a website, without any specific content or functionality.",
     heading: "PROJECT INFO",
     year: 2022,
     image: Img3,
-    type: "Challenge"
+    type: "Challenge",
+    link: 'https://figma-project-ashen-seven.vercel.app/'
   }
 ]

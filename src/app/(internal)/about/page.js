@@ -28,10 +28,10 @@ export default function AboutMe() {
                 <Image className="w-7" src={Save} alt="download-icon" />
               </span>
             </Link>
-            <Link href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/oluwatomiwa-deji-415159107/" target="_blank" rel="noopener noreferrer">
               <Image className="w-10 h-10 hover:brightness-115" src={Linkdin} alt="linkedin-icon" />
             </Link>
-            <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/imagine147" target="_blank" rel="noopener noreferrer">
               <Image className="w-10 h-10 hover:brightness-115" src={Github} alt="github-icon" />
             </Link>
           </div>

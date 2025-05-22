@@ -28,10 +28,10 @@ export default function Cards() {
               </div>
 
               <div className="flex items-center gap-4 text-sm">
-                <Link href="https://instagram.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-130">
+                <Link href={card.link} target="_blank" rel="noopener noreferrer" className="hover:brightness-130">
                   <button className="text-[#D3E97A] border-b-2 border-b-[#D3E97A] flex items-center py-1 gap-2 cursor-pointer">LIVE DEMO<span><Image className="w-7" src={Arrow} alt="arrow-up"/></span></button>
                 </Link>
-                <Link href="https://instagram.com/akinsolaolajide" target="_blank" rel="noopener noreferrer" className="hover:brightness-130">
+                <Link href="https://github.com/imagine147" target="_blank" rel="noopener noreferrer" className="hover:brightness-130">
                   <button className="text-[#D3E97A] border-b-2 border-b-[#D3E97A] flex items-center py-1 gap-2 cursor-pointer">SEE ON GITHUB<span><Image className="w-7" src={Github} alt="github-icon"/></span></button>
                 </Link>
               </div>

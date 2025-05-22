@@ -18,10 +18,10 @@ export default function Hero() {
             <Link href="#contact" className="bg-[#D3E97A] rounded-3xl text-[#0A0A0A] px-4 py-2 text-sm flex gap-2 items-center hover:brightness-115">
               CONTACT ME <span className="rounded-full bg-[#0A0A0A] md:p-1"><Image className="block md:hidden" src={Arrow} alt="arrow-up"/></span>
             </Link>
-            <Link href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/oluwatomiwa-deji-415159107/" target="_blank" rel="noopener noreferrer">
               <Image className="w-10 h-10 hover:brightness-115" src={Linkdin} alt="linkedin-icon"/>
             </Link>
-            <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/imagine147" target="_blank" rel="noopener noreferrer">
               <Image className="w-10 h-10 hover:brightness-115" src={Github} alt="github-icon"/>
             </Link>
           </div>
