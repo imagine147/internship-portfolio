@@ -10,8 +10,11 @@ export default function Home() {
     <div>
       <NavBar/>
       <Hero/>
-      <Projects/>
+      <div className="border-b-1 border-b-[#484848]"></div>
+      <div id="projects"><Projects/></div>
+      <div className="border-b-1 border-b-[#484848]"></div>
       <About/>
+      <div className="border-b-1 border-b-[#484848]"></div>
       <div id="contact"><Footer/></div>
     </div>
   );

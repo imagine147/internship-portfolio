@@ -23,7 +23,7 @@ export default function AboutMe() {
             </span>
           </p>
           <div className="flex gap-6 items-center mt-4">
-            <Link href="/resume.pdf" download className="bg-[#D3E97A] rounded-3xl text-[#0A0A0A] px-4 py-2 text-sm flex gap-2 items-center hover:brightness-115">DOWNLOAD RESUME
+            <Link href="/Akinsola_Olajide_Akintunde_CV.pdf" download className="bg-[#D3E97A] rounded-3xl text-[#0A0A0A] px-4 py-2 text-sm flex gap-2 items-center hover:brightness-115">DOWNLOAD RESUME
               <span className="rounded-full bg-[#0A0A0A] md:p-1 hover:brightness-115">
                 <Image className="w-7" src={Save} alt="download-icon" />
               </span>
@@ -43,7 +43,9 @@ export default function AboutMe() {
         </div>
       </div>
       <MyCapabilities />
+      <div className="border-b-1 border-b-[#484848]"></div>
       <MyExperience />
+      <div className="border-b-1 border-b-[#484848]"></div>
     </div>
   )
 }

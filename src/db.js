@@ -41,7 +41,8 @@ export const cards =[
     year: 2023,
     image: Img1,
     type: "Conceptual Work",
-    link: 'https://discover-events-git-main-olajides-projects-93bc3a9f.vercel.app/'
+    link: 'https://discover-events-git-main-olajides-projects-93bc3a9f.vercel.app/',
+    github: 'https://github.com/imagine147/Discover-events.git'
   },
   {
     id:2,
@@ -51,7 +52,8 @@ export const cards =[
     year: 2022,
     image: Img2,
     type: "practice",
-    link: 'https://trad-form-olajides-projects-93bc3a9f.vercel.app/'
+    link: 'https://trad-form-olajides-projects-93bc3a9f.vercel.app/',
+    github: 'https://github.com/imagine147/Trad-form.git'
   },
   {
     id:3,
@@ -61,6 +63,7 @@ export const cards =[
     year: 2022,
     image: Img3,
     type: "Challenge",
-    link: 'https://figma-project-ashen-seven.vercel.app/'
+    link: 'https://figma-project-ashen-seven.vercel.app/',
+    github: 'https://github.com/imagine147/imagine.git'
   }
 ]

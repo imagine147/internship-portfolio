@@ -9,7 +9,7 @@ export default function MyExperience() {
             <h4 className="text-lg">Freelance Developer</h4>
             <p>Nov 2023-Present</p>
           </div>
-            <p className="text-[#C7C7C7] text-sm">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <p className="text-[#C7C7C7] text-sm">Designed and developed responsive, user-focused websites for diverse clients, including an employment platform and an event management site.r</p>
         </div>
         <div className="space-y-2">
           <div className="flex justify-between">
@@ -17,7 +17,7 @@ export default function MyExperience() {
             <p>Sep 2023-Nov 2023</p>
           </div>
           <div className="text-[#D3E97A] text-base">Tech-Studio</div>
-            <p className="text-[#C7C7C7] text-sm">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <p className="text-[#C7C7C7] text-sm">Contributed to real-world frontend projects in a collaborative development environment. Gained hands-on experience with version control (Git), code reviews, and agile workflows.</p>
         </div>
       </div>
     </div>

@@ -58,15 +58,15 @@ export default function NavBar() {
         {/* mobile-menu */}
         <div ref={navRef} className={`absolute top-full right-2 w-[95%] mx-auto bg-white rounded-lg shadow-lg md:hidden flex flex-col gap-4 z-50 transition-all ${menuOpen ? 'block' : 'hidden'}`}>
           <div className="flex flex-col gap-6 p-6 text-[#0A0A0A]">
-            <Link href="/work" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Work</h3></Link>
-            <Link href="/about" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>About</h3></Link>
+            <Link href="/#projects" passHref onClick={() => { handleSetActive('projects'); closeMenubar(); }} className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Work</h3></Link>
+            <Link href="/about" onClick={() => { handleSetActive('about'); closeMenubar(); }} className="hover:text-[#D3E97A] transition-colors duration-200"><h3>About</h3></Link>
             <Link href="/#contact" passHref onClick={() => { handleSetActive('contact'); closeMenubar(); }} className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Contact</h3></Link>
           </div>
         </div>
 
         {/* desktop-menu */}
         <div className="hidden md:flex gap-6">
-          <Link href="/work" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Work</h3></Link>
+          <a href="#projects" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Work</h3></a>
           <Link href="/about" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>About</h3></Link>
           <Link href="/#contact" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Contact</h3></Link>
         </div>
