@@ -9,7 +9,7 @@ export default function MyExperience() {
             <h4 className="text-lg">Freelance Developer</h4>
             <p>Nov 2023-Present</p>
           </div>
-            <p className="text-[#C7C7C7] text-sm">Designed and developed responsive, user-focused websites for diverse clients, including an employment platform and an event management site.r</p>
+            <p className="text-[#C7C7C7] text-sm">Designed and developed responsive, user-focused websites for diverse clients, including an employment platform and an event management site.</p>
         </div>
         <div className="space-y-2">
           <div className="flex justify-between">

@@ -9,9 +9,7 @@ export default function MyCapabilities() {
         </div>
         <div className="text-[#C7C7C7] w-full">
           <p className="text-sm mb-4">
-            I am always looking to add more skills. Morbi egestas neque eu
-            blandit fermentum. Nulla ac lobortis ligula. Pellentesque ac ex at
-            purus faucibus tristique ut et dolor.
+            Expert in building responsive, performant UIs with clean code and thoughtful design. My focus is on crafting seamless user experiences using the latest frontend technologies. I am always looking to add more skills.
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-2 w-full">
