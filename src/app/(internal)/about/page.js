@@ -23,9 +23,9 @@ export default function AboutMe() {
             </span>
           </p>
           <div className="flex gap-6 items-center mt-4">
-            <Link href="/Akinsola_Olajide_Akintunde_CV.pdf" download className="bg-[#D3E97A] rounded-3xl text-[#0A0A0A] px-4 py-2 text-sm flex gap-2 items-center hover:brightness-115">DOWNLOAD RESUME
+            <Link href="/Akinsola_Olajide_Akintunde_CV.pdf" download className="bg-[#D3E97A] rounded-3xl text-[#0A0A0A] px-4 py-2 text-xs lg:text-sm flex gap-2 items-center hover:brightness-115"><p className="whitespace-nowrap">DOWNLOAD RESUME</p>
               <span className="rounded-full bg-[#0A0A0A] md:p-1 hover:brightness-115">
-                <Image className="w-7" src={Save} alt="download-icon" />
+                <Image className="w-6 block md:hidden " src={Save} alt="download-icon" />
               </span>
             </Link>
             <Link href="https://www.linkedin.com/in/oluwatomiwa-deji-415159107/" target="_blank" rel="noopener noreferrer">

@@ -13,8 +13,8 @@ export default function Footer() {
           <div className="flex flex-col gap-3">
             <h1 className="text-white text-3xl ">LET'S CONNECT</h1>
             <div>
-                <p>Say hello at <Link href="https://gmail.com/akinsolaolajide" target="_blank" rel="noopener noreferrer"><span className="border-b border-b-[#D3E97A] hover:text-[#D3E97A] cursor-pointer">akinsolaolajide150@gmail.com</span></Link></p>
-              <p>For more info, here's my <Link href="https://mail.com/akinsolaolajide" target="_blank" rel="noopener noreferrer"><span className="border-b border-b-[#D3E97A] hover:text-[#D3E97A] ">resume</span></Link></p>
+                <p>Say hello at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=akinsolaolajide150@gmail.com" target="_blank" rel="noopener noreferrer"><span className="border-b border-b-[#D3E97A] hover:text-[#D3E97A] cursor-pointer">akinsolaolajide150@gmail.com</span></a></p>
+              <p>For more info, here's my <Link href="/Akinsola_Olajide_Akintunde_CV.pdf" target="_blank" rel="noopener noreferrer"><span className="border-b border-b-[#D3E97A] hover:text-[#D3E97A] ">resume</span></Link></p>
             </div>
           </div>
           <div className="flex gap-4">
