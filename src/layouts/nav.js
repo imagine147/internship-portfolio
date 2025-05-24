@@ -66,7 +66,7 @@ export default function NavBar() {
 
         {/* desktop-menu */}
         <div className="hidden md:flex gap-6">
-          <a href="#projects" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Work</h3></a>
+          <Link href="/#projects" passHref className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Work</h3></Link>
           <Link href="/about" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>About</h3></Link>
           <Link href="/#contact" className="hover:text-[#D3E97A] transition-colors duration-200"><h3>Contact</h3></Link>
         </div>
