@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Linkdin from "../../images/Frame 3.svg"
 import Github from "../../images/Frame 4.svg"
-import Pic from "../../images/0d3630f0a8ce367183462cfffe8f59bdd44167c0.png"
+import Pic from "../../images/WhatsApp Image 2025-07-11 at 12.51.06_bfdc047b.jpg"
 import Arrow from "../../images/arrow.svg"
 import Link from "next/link"
 export default function Hero() {
@@ -26,7 +26,7 @@ export default function Hero() {
             </Link>
           </div>
         </div>
-        <Image src={Pic} alt="profile-pic" className="rounded-lg w-full md:w-1/2"/>
+        <Image src={Pic} alt="profile-pic" className="rounded-lg w-full md:w-1/2 shadow-[0_0_20px_rgba(255,255,255,0.2)] transition-all duration-700 ease-in-out transform hover:scale-[1.02] animate-fadeIn"/>
       </div>
     </div>
   )

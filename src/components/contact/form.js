@@ -109,12 +109,12 @@ export default function ContactForm() {
           {/* Message */}
           <div>
             <label htmlFor="message" className="block text-sm font-medium">Message</label>
-            <textarea id="message"
+            <input id="message"
               name="message"
               rows={5}
               value={formData.message}
               onChange={handleChange}
-              className={`mt-1 w-full px-4 py-2 border ${ errors.message ? 'border-red-500' : 'border-gray-300' } rounded-lg focus:ring-2 focus:ring-[#2acfcf] focus:outline-none`}
+              className={`mt-1 w-full px-4 py-2 pb-8 border ${ errors.message ? 'border-red-500' : 'border-gray-300' } rounded-lg focus:ring-2 focus:ring-[#2acfcf] focus:outline-none`}
               placeholder="Type your message here..."/>
             {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
           </div>
