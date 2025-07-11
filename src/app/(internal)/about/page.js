@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Linkdin from "../../../images/Frame 3.svg"
 import Github from "../../../images/Frame 4.svg"
-import Img from "../../../images/6dd8e389a3 1.png"
+import Img from "../../../images/WhatsApp Image 2025-07-11 at 12.51.06_bfdc047b.jpg"
 import Save from "../../../images/circle.svg"
 import MyCapabilities from "@/components/about/capability/myCapabilities";
 import MyExperience from "@/components/about/experience/myExperience";
@@ -23,7 +23,7 @@ export default function AboutMe() {
             </span>
           </p>
           <div className="flex gap-6 items-center mt-4">
-            <Link href="/Akinsola_Olajide_Akintunde_CV.pdf" download className="bg-[#D3E97A] rounded-3xl text-[#0A0A0A] px-4 py-2 text-xs lg:text-sm flex gap-2 items-center hover:brightness-115"><p className="whitespace-nowrap">DOWNLOAD RESUME</p>
+            <Link href="/Akinsola_Olajide_Akintunde_CV (3).pdf" download className="bg-[#D3E97A] rounded-3xl text-[#0A0A0A] px-4 py-2 text-xs lg:text-sm flex gap-2 items-center hover:brightness-115"><p className="whitespace-nowrap">DOWNLOAD RESUME</p>
               <span className="rounded-full bg-[#0A0A0A] md:p-1 hover:brightness-115">
                 <Image className="w-6 block md:hidden " src={Save} alt="download-icon" />
               </span>
@@ -38,8 +38,8 @@ export default function AboutMe() {
         </div>
       </div>
       <div className="px-4">
-        <div className="rounded-lg container w-full md:w-10/12 mx-auto pt-8 mt-16 mb-8 bg-[#C7C7C7]">
-          <Image src={Img} alt="profile-image" className="mt-8 w-[280px] md:w-[364px] mx-auto" />
+        <div className="rounded-lg container w-full md:w-10/12  mx-auto  mt-16 mb-8 bg-[#C7C7C7]">
+          <Image src={Img} alt="profile-image" className="w-full object shadow-[0_0_20px_rgba(255,255,255,0.2)] transition-all duration-700 ease-in-out transform hover:scale-[1.02] animate-fadeIn" />
         </div>
       </div>
       <MyCapabilities />
